@@ -1,0 +1,114 @@
+/*通用格式*/
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+body{
+	width: 1200px;
+	margin: 0 auto;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+.c{
+	clear: both;
+}
+.warp{
+	width: 1200px;
+	margin-top: 20px ;
+}
+/*第一行*/
+.top1{
+	width: 1200px;
+	height: 50px;
+	position: relative;
+}
+.top1-r {
+	height: 40px;
+	width: 280px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: aquamarine;
+}
+.top1-r a{
+	margin-left:5px ;
+	margin-top: 7px;
+}
+.top1-r img{
+	position: absolute;
+	top: -18px;
+	right: 220px;
+}
+.top2{
+	width: 1200px;
+	margin-top: 5px;
+	height: 40px;
+	background-color: coral;
+}
+.top2 a{
+	font-size: 25px;
+	margin-top: 3px;
+	margin-left: 13px;
+}
+.top3{
+	margin-top:10px ;
+	width: 1200px;
+	height: 170px;
+}
+.top3>img{
+	width: 1200px;
+	height: 170px;
+}
+.top4{
+	width: 1200px;
+	height: 400px;
+	border: 1px solid chartreuse;
+	margin-top: 10px;
+}
+.top4-l-l{
+	position: relative;
+	width: 300px;
+}
+.img1{
+	width: 300px;
+	position: absolute;
+	left: -15px;
+	top: 20px;
+	z-index: 30;
+}
+.img2{
+	position: absolute;
+	z-index: 20;
+}
+.img3{
+	position: absolute;
+	z-index: 10;
+	top: 120px;
+}
+.jieshao{
+	position: absolute;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
